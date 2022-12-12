@@ -4,8 +4,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>spring-mvc-views</artifactId>
-    <packaging>war</packaging>
     <name>spring-mvc-views</name>
+    <packaging>war</packaging>
 
     <parent>
         <groupId>com.baeldung</groupId>
@@ -104,8 +104,6 @@
     </build>
 
     <properties>
-        <javax.servlet.jsp-api.version>2.3.3</javax.servlet.jsp-api.version>
-        <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
         <spring.version>5.2.1.RELEASE</spring.version>
         <spring.security.version>5.2.1.RELEASE</spring.security.version>
         <spring.data.version>2.2.2.RELEASE</spring.data.version>
